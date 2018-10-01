@@ -26,26 +26,6 @@ export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 prepare the images, xmls(labeling files), and trainval.txt(list name of dataset) 
 
 ## Usage
-'''
-models
-|-- annotations
-|   |-- label_map.pbtxt
-|   |-- trainval.txt
-|   `-- xmls
-|       |-- 1.xml
-|       |-- 2.xml
-|       |-- 3.xml
-|       `-- ...
-|-- images
-|   |-- 1.jpg
-|   |-- 2.jpg
-|   |-- 3.jpg
-|   `-- ...
-|-- object_detection
-|   `-- ...
-`-- ...
-
-'''
 
 ### 1) Create the TensorFlow Records
 Run the script:
