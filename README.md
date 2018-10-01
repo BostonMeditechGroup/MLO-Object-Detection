@@ -1,4 +1,4 @@
-<img src=sample/test.jpg width=100% />
+<img src=sample/test1.jpg width=100% />
 
 ## Resource 
 This project was custom object detection with "https://medium.freecodecamp.org/tracking-the-millenium-falcon-with-tensorflow-c8c86419225e"
@@ -26,6 +26,7 @@ export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 prepare the images, xmls(labeling files), and trainval.txt(list name of dataset) 
 
 ## Usage
+'''
 models
 |-- annotations
 |   |-- label_map.pbtxt
@@ -44,7 +45,7 @@ models
 |   `-- ...
 `-- ...
 
-
+'''
 
 ### 1) Create the TensorFlow Records
 Run the script:
