@@ -1,4 +1,4 @@
-<img src=sample/test1.jpg width=100% />
+<img src=sample/test.jpg width=50% />
 
 ## Resource 
 This project was custom object detection with "https://medium.freecodecamp.org/tracking-the-millenium-falcon-with-tensorflow-c8c86419225e"
